@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    ;
+    display: flex;
+    justify-content: center;
+    
+}
+header{
+    height: 10vh;
+    background-color: #424242;
+}
+footer{
+    height: 13vh;
+    background-color: #2f3032;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pie{
+    display: flex;
+    justify-content: space-around;
+}
+h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+}
+.opc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 55px;
+    text-align: center;
+}
+.container{
+    width: 400px;
+}
+.base{
+    background-color: #121212;
+    height: 77vh;
+}
+.info{
+    top: 10vh;
+    margin-left: 10px;
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 60px;
+    width: 375px;
+    position: absolute;
+    transform: translate(0%,-50%);
+    background-color: #303030;
+}
+.frecuentes{
+    padding-left: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flecha{
+
+    display: flex;
+    padding-left: 185px;
+    color: #578a6b;
+}
+.opciones{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.opt{
+    width: 55px;
+    height: 55px;
+    padding-left: 10px;
+    border-radius: 50%;
+}
+p{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.more{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+.tprecio{
+    padding-left: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 24px;
+}
+.pre{
+    padding-top: 25px;
+    padding-left: 67px
+}
+
+.counts{
+    height: 80%;
+}
+.margen{
+    margin: 0 auto;
+    width: 95%;
+    border-bottom: solid #4e4e4e;
+}
+.margeni{
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    border-bottom: solid #5a5a5a;
+}
+.tarjetas{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 2%;
+    width: 380px ;
+    height: 100px;
+    background-color: #303030;
+}
+.cuentas{
+
+    margin-left: 10px;
+    width: 77px;
+    border-bottom: solid #259767;
+    border-radius: 8%;
+    border-width: 5px;
+}
+.tdatos{
+    width: 11px    ;    
+}
+.opcpie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logp{
+    height: 30px;
+    width: 30px;
+    
+}
